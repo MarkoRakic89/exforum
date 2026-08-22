@@ -1,0 +1,97 @@
+/*
+ * Custom overrides for a monochrome theme.
+ *
+ * The original design shipped with a red accent colour and white backgrounds.  For
+ * a more elegant black and white aesthetic we redefine the Bootstrap CSS
+ * variables to use shades of black and grey.  Primary actions and links are
+ * rendered in a dark tone to draw the eye without relying on colour.  Table
+ * hover effects and other accents use subtle greys to maintain contrast.
+ */
+
+/* Override Bootstrap CSS variables */
+:root {
+  /* Primary tone for buttons and interactive elements */
+  --bs-primary: #212529;
+  /* Background remains white to maximise readability */
+  --bs-body-bg: #ffffff;
+  /* Main text colour set to pure black */
+  --bs-body-color: #000000;
+  /* Link colours use the same dark tone as primary */
+  --bs-link-color: #212529;
+  --bs-link-hover-color: #495057;
+}
+
+body {
+  background-color: var(--bs-body-bg) !important;
+  color: var(--bs-body-color) !important;
+}
+
+/* Sidebar menu styling */
+.layout-menu .menu-inner {
+  background-color: #f8f9fa; /* light grey for contrast against white page */
+}
+.layout-menu .menu-link {
+  color: var(--bs-body-color);
+}
+.layout-menu .menu-item > .menu-link:hover {
+  background-color: rgba(33, 37, 41, 0.05);
+  color: var(--bs-primary);
+}
+.layout-menu .menu-item.active > .menu-link {
+  color: #ffffff;
+  background-color: var(--bs-primary);
+}
+/* Primary buttons */
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  color: #ffffff !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #495057 !important;
+  border-color: #495057 !important;
+}
+
+/* Outline buttons in primary context use dark borders */
+.btn-outline-primary {
+  color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #ffffff !important;
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+/* Toast colours alignment for our messages (success/danger/info/warning) */
+.text-bg-success {
+  background-color: #198754 !important;
+  color: #ffffff !important;
+}
+.text-bg-danger {
+  background-color: #dc3545 !important;
+  color: #ffffff !important;
+}
+.text-bg-info {
+  background-color: #0dcaf0 !important;
+  color: #000000 !important;
+}
+.text-bg-warning {
+  background-color: #ffc107 !important;
+  color: #000000 !important;
+}
+
+/* Table hover row accent */
+.table-hover tbody tr:hover {
+  background-color: rgba(33, 37, 41, 0.03);
+}
+
+/* Toast container positioning */
+.toast-container {
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  z-index: 1100 !important;
+}

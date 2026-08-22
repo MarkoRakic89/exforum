@@ -1,0 +1,23 @@
+@extends('layouts.contentNavbarLayout')
+
+@section('content')
+<h1>Dodaj novi grad</h1>
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <form method="POST" action="{{ route('admin.cities.store') }}" class="realtime-validation">
+                    @csrf
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Naziv grada</label>
+                        <input type="text" name="name" id="name" class="form-control" value="{{ old('name') }}" required>
+                        <div class="invalid-feedback"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sačuvaj</button>
+                    <a href="{{ route('admin.cities.index') }}" class="btn btn-link">Nazad</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

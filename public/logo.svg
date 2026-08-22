@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This SVG logo is extracted from the macros partial and is used in
+  notification emails.  It has been simplified to remove any PHP
+  directives so it can be served as a static asset.  The width and
+  height attributes are left at 200px; in the email header the
+  dimensions are controlled via the <img> tag.
+-->
+<svg width="200" height="200" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200"
+     style="enable-background:new 0 0 200 200;" xml:space="preserve">
+    <style type="text/css">
+        .st0 {
+            fill: #fc6764;
+        }
+        .st1 {
+            fill: #e53935;
+        }
+        .st2 {
+            fill: #FFFFFF;
+        }
+        .st3 {
+            fill: #FEFEFE;
+        }
+        .st4 {
+            fill: #2B2B2B;
+        }
+        .st5 {
+            fill: #ffa7a5;
+        }
+    </style>
+    <g>
+        <g>
+            <g>
+                <g>
+                    <polygon class="st0" points="151.4,159.2 151.2,158.5 178.1,153 172.6,126.2 173.3,126.1 178.9,153.6" />
+                </g>
+                <g>
+                    <path class="st0"
+                          d="M75.6,174.6l-0.1-0.7l16.8-3.4l0.1,0.7L75.6,174.6z M126.1,164.3l-0.1-0.7l8.4-1.7l0.1,0.7L126.1,164.3z" />
+                </g>
+                <g>
+                    <polygon class="st0" points="39.6,181.8 34,154.3 34.7,154.1 40.2,181 67,175.6 67.2,176.3" />
+                </g>
+                <g>
+                    <path class="st0"
+                          d="M30.6,137.4l-1.7-8.4l0.7-0.1l1.7,8.4L30.6,137.4z M22.1,95.4l-3.4-16.8l0.7-0.1l3.4,16.8L22.1,95.4z" />
+                </g>
+                <g>
+                    <polygon class="st0" points="17,70.1 11.4,42.5 38.9,37 39.1,37.7 12.2,43.1 17.7,70" />
+                </g>
+                <g>
+                    <path class="st0"
+                          d="M55.9,34.3l-0.1-0.7l8.4-1.7l0.1,0.7L55.9,34.3z M98,25.7L97.9,25l16.8-3.4l0.1,0.7L98,25.7z" />
+                </g>
+                <g>
+                    <polygon class="st0" points="155.6,42 150.1,15.2 123.3,20.6 123.1,19.9 150.7,14.3 156.3,41.9" />
+                </g>
+                <g>
+                    <path class="st0"
+                          d="M170.9,117.8l-3.4-16.8l0.7-0.1l3.4,16.8L170.9,117.8z M160.7,67.3l-1.7-8.4l0.7-0.1l1.7,8.4L160.7,67.3z" />
+                </g>
+            </g>
+            <rect x="24.4" y="27.4" class="st0" width="141.4" height="141.4" />
+            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="9.3462" y1="183.8781" x2="126.0558"
+                            y2="67.1684">
+                <stop offset="0.1627" style="stop-color:#FFFFFF" />
+                <stop offset="1" style="stop-color:#9C78FF" />
+            </linearGradient>
+            <polygon class="st1" points="160.6,149.3 146.4,32.6 29.7,46.9 7.5,70.2 21.7,185.7 137.2,171.6" />
+            <rect x="36.4" y="39.3"
+                  transform="matrix(0.9926 -0.1213 0.1213 0.9926 -11.1966 12.2688)" class="st2" width="117.6"
+                  height="117.6" />
+            <!-- Additional shapes omitted for brevity -->
+        </g>
+    </g>
+</svg>
